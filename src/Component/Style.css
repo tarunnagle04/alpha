@@ -1,0 +1,190 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+  padding: 0;
+}
+#root {
+  height: 1300px;
+}
+.Web_logo {
+  width: 10rem;
+  position: relative;
+  left: 5rem;
+  top: 2rem;
+}
+.Bg_01 {
+  z-index: -1;
+  position: relative;
+  bottom: 4rem;
+  left: 1rem;
+  background-size: cover;
+  height: 40rem;
+  scale: 1.05;
+}
+.Upper_info {
+  position: absolute;
+  bottom: 250px;
+  left: 150px;
+}
+
+.FeatureFlex {
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  bottom: 270px;
+  left: 149px;
+  width: 17rem;
+  font-size: smaller;
+  position: relative;
+}
+.ico {
+  background: #000;
+  color: white;
+  border-radius: 5rem;
+  width: 2rem;
+  height: 1.5rem;
+  padding-top: 8px;
+}
+.DivInfo {
+  position: relative;
+  right: 0.9rem;
+}
+.Form_Wrapper {
+  background: white;
+  border: 1px solid grey;
+  position: relative;
+  border-radius: 1rem;
+  box-shadow: 1px 1px grey;
+  width: 500px;
+  height: 600px;
+  bottom: 720px;
+  left: 730px;
+  padding: 2rem;
+}
+.HomeFormCom {
+  display: grid;
+  grid-template-columns: 250px 250px;
+  grid-template-rows: repeat(14, 1.5rem);
+  gap: 5px;
+}
+#First_Name_Label {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+#Last_Name_Label {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+.Middle {
+  position: relative;
+  z-index: -2;
+  bottom: 10rem;
+  right: 20rem;
+}
+.Middle_LeftContent {
+  position: relative;
+  bottom: 845px;
+  left: 100px;
+}
+.Upper_Footer {
+  position: relative;
+  bottom: 550px;
+  background: rgb(188, 186, 186);
+  height: 600px;
+}
+.Footer_IMG {
+  height: 600px;
+  width: 400px;
+}
+.footerDesc {
+  position: relative;
+  bottom: 1rem;
+}
+.Right_Content_Upper_Footer {
+  position: relative;
+  left: 450px;
+  bottom: 600px;
+}
+.footer {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  bottom: 550px;
+  align-items: baseline;
+  background: rgb(8, 8, 8);
+  color: grey;
+  font-size: x-small;
+  height: 120px;
+  padding: 25px;
+}
+.abcdef {
+  width: 15px;
+  color: white;
+}
+.Middle_LeftContent p {
+  font-size: small;
+}
+h1 {
+  margin: 0;
+}
+p {
+  margin: 0;
+}
+li {
+  position: relative;
+  right: 1rem;
+}
+button {
+  background: orangered;
+  color: white;
+  border: 0px;
+  border-radius: 1rem;
+  width: 280px;
+  height: 45px;
+  font-size: larger;
+  position: relative;
+  top: 100px;
+}
+.hover:hover {
+  cursor: pointer;
+}
+
+.two{
+  display: flex;
+  flex-direction: column;
+}
+
+.MidIco{
+  width: 3rem;
+  height: 3rem;
+  color: #000;
+  position: relative;
+  left: 0.5rem;
+  top: 0.5rem;
+  margin-right: 2rem;
+}
+.UpperFooterDesc{
+  display: flex;
+  position: relative;
+  top:3rem;
+}
+.why{
+  position: relative;
+  top: 2rem;
+}
+.classForIcon{
+  background: white;
+  width: 4.2rem;
+  height: 4rem;
+  border-radius: 7rem;
+  margin-right: 2rem;
+}
+.footerDesc p{
+  font-size: small;
+  position: relative;
+  bottom: 1rem;
+}
+.callback{
+  position: relative;
+  right: 500px;
+}

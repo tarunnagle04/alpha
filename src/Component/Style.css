@@ -2,9 +2,7 @@ body {
   margin: 0;
   overflow-x: hidden;
   padding: 0;
-}
-#root {
-  height: 1300px;
+  font-family: "Wix Madefor Display", sans-serif;
 }
 .Web_logo {
   width: 10rem;
@@ -21,6 +19,7 @@ body {
   height: 40rem;
   scale: 1.05;
 }
+
 .Upper_info {
   position: absolute;
   bottom: 250px;
@@ -48,32 +47,6 @@ body {
 .DivInfo {
   position: relative;
   right: 0.9rem;
-}
-.Form_Wrapper {
-  background: white;
-  border: 1px solid grey;
-  position: relative;
-  border-radius: 1rem;
-  box-shadow: 1px 1px grey;
-  width: 500px;
-  height: 600px;
-  bottom: 720px;
-  left: 730px;
-  padding: 2rem;
-}
-.HomeFormCom {
-  display: grid;
-  grid-template-columns: 250px 250px;
-  grid-template-rows: repeat(14, 1.5rem);
-  gap: 5px;
-}
-#First_Name_Label {
-  grid-column: 1/2;
-  grid-row: 1/2;
-}
-#Last_Name_Label {
-  grid-column: 2/3;
-  grid-row: 1/2;
 }
 .Middle {
   position: relative;
@@ -149,12 +122,12 @@ button {
   cursor: pointer;
 }
 
-.two{
+.two {
   display: flex;
   flex-direction: column;
 }
 
-.MidIco{
+.MidIco {
   width: 3rem;
   height: 3rem;
   color: #000;
@@ -163,28 +136,28 @@ button {
   top: 0.5rem;
   margin-right: 2rem;
 }
-.UpperFooterDesc{
+.UpperFooterDesc {
   display: flex;
   position: relative;
-  top:3rem;
+  top: 3rem;
 }
-.why{
+.why {
   position: relative;
   top: 2rem;
 }
-.classForIcon{
+.classForIcon {
   background: white;
   width: 4.2rem;
   height: 4rem;
   border-radius: 7rem;
   margin-right: 2rem;
 }
-.footerDesc p{
+.footerDesc p {
   font-size: small;
   position: relative;
   bottom: 1rem;
 }
-.callback{
+.callback {
   position: relative;
   right: 500px;
 }

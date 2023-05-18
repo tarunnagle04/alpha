@@ -1,6 +1,7 @@
 import Web_logo from "../assets/logo.png";
 import Web_logo_01 from "../assets/2.png";
 import Upper_bg from "../assets/BG_01.png";
+import Home_Form from "./Home_Form"
 import A from "../assets/Group 194.png";
 import G from "../assets/right.png";
 import B from "../assets/Group 195.png";
@@ -9,7 +10,6 @@ import D from "../assets/copy.png";
 import E from "../assets/msg.png";
 import F from "../assets/tick.png";
 import { AiOutlineArrowRight } from "react-icons/ai";
-// import Home_Form from "./Home_Form";
 import Upper_Footer from "../assets/upper_footer.png";
 import Middle from "../assets/middle.png";
 const Home = () => {
@@ -70,10 +70,6 @@ const Home = () => {
           </div>
         </div>
       </div>
-
-      {/* <div className="Home_Form">
-        <Home_Form />
-      </div> */}
 
       {/* ----------------------------------------------------- */}
       <div className="Middle_Web">
@@ -234,6 +230,10 @@ const Home = () => {
           <p>Alpha Overlaminated Films</p>
         </div>
       </div>
+      
+            <div className="HomeForm">
+              <Home_Form />
+            </div>
     </>
   );
 };
